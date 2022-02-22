@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  font-family: "raleway", sans-serif;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(53deg, rgb(193, 190, 233), rgb(169, 166, 206));
+  background-attachment: fixed;
+}
+div {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 0;
+  color: #594b4d;
+}
+
+.main-container {
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.time {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-variant-numeric: lining-nums;
+  color: purple;
+  font-weight: 100;
+}
+
+.cat-container {
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+}
+
+.timer-display {
+  background: rgb(247, 247, 247, 1);
+  font-weight: bold;
+  padding: 15px 50px;
+  font-size: 70px;
+  line-height: 1.1;
+  text-align: center;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: rgb(123, 120, 156);
+  width: 450px;
+  box-sizing: border-box;
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 0;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: lowercase;
+  cursor: pointer;
+  width: 100%;
+  /* background: rgb(193, 191, 228);
+  color: white; */
+}
+.start-btn {
+  background: rgb(123, 120, 156);
+  color: rgb(231, 231, 230);
+}
+
+.stop-btn {
+  background: rgb(193, 191, 228);
+  color: white;
+}
+
+.task-container {
+  min-width: 450px;
+}
+
+.task {
+  width: 100%;
+  margin-top: 0;
+  border-top: 2px solid transparent;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.active-btn {
+  background: rgb(123, 120, 156);
+  color: rgb(231, 231, 230);
+}
+
+#clock-task {
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "raleway", sans-serif;
+  font-weight: 400;
+  border: none;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.task-text {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
